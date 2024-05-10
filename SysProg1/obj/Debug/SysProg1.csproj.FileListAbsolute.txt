@@ -1,0 +1,8 @@
+C:\Users\Savic\source\repos\SysProg1\bin\Debug\SysProg1.exe.config
+C:\Users\Savic\source\repos\SysProg1\bin\Debug\SysProg1.exe
+C:\Users\Savic\source\repos\SysProg1\bin\Debug\SysProg1.pdb
+C:\Users\Savic\source\repos\SysProg1\obj\Debug\SysProg1.csproj.AssemblyReference.cache
+C:\Users\Savic\source\repos\SysProg1\obj\Debug\SysProg1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Savic\source\repos\SysProg1\obj\Debug\SysProg1.csproj.CoreCompileInputs.cache
+C:\Users\Savic\source\repos\SysProg1\obj\Debug\SysProg1.exe
+C:\Users\Savic\source\repos\SysProg1\obj\Debug\SysProg1.pdb
