@@ -18,7 +18,7 @@ namespace SysProg1
         {
             Thread serverThread = new Thread(() =>
             {
-                HttpServer server = new HttpServer(localhost, serverPort, directory, new Cache<string, byte[]>());
+                HttpServer server = new HttpServer(localhost, serverPort, directory, new LRUCache<string, byte[]>(10));
                 server.Launch();
             });
 

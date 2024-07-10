@@ -18,14 +18,14 @@ namespace SysProg1
         private string serverAddress;
         private uint portNumber;
         private string rootDir;
-        private Cache<string, byte[]> cache;
+        private LRUCache<string, byte[]> cache;
 
-        public HttpServer(string serverAddress, uint portNumber, string rootDir, Cache<string, byte[]> cache = null)
+        public HttpServer(string serverAddress, uint portNumber, string rootDir, LRUCache<string, byte[]> cache = null)
         {
             this.serverAddress = serverAddress;
             this.portNumber = portNumber;
             this.rootDir = rootDir;
-            this.cache = cache ?? new Cache<string, byte[]>();
+            this.cache = cache ?? new LRUCache<string, byte[]>(10);
         }
 
         private void SendResponse(HttpListenerContext context, byte[] responseBody, string contentType, HttpStatusCode statusCode = HttpStatusCode.OK, Boolean att = false)
